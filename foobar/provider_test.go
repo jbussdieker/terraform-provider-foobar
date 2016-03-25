@@ -1,4 +1,4 @@
-package btmp
+package foobar
 
 import (
   "testing"

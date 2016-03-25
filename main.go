@@ -1,12 +1,12 @@
 package main
 
 import (
-  "github.com/jbussdieker/terraform-plugin-test/foobar"
+  "github.com/jbussdieker/terraform-provider-foobar/foobar"
   "github.com/hashicorp/terraform/plugin"
 )
 
 func main() {
   plugin.Serve(&plugin.ServeOpts{
-    ProviderFunc: btmp.Provider,
+    ProviderFunc: foobar.Provider,
   })
 }

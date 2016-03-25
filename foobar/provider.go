@@ -1,4 +1,4 @@
-package btmp
+package foobar
 
 import (
   "github.com/hashicorp/terraform/helper/schema"
@@ -8,7 +8,7 @@ import (
 func Provider() terraform.ResourceProvider {
   return &schema.Provider{
     ResourcesMap: map[string]*schema.Resource{
-      "foobar_file": resourceFile(),
+      "foobar_template": resourceFile(),
     },
   }
 }
