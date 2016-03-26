@@ -49,9 +49,3 @@ func resourceFileExists(d *schema.ResourceData, meta interface{}) (bool, error) 
 func resourceFileRead(d *schema.ResourceData, meta interface{}) error {
   return nil
 }
-
-type templateRenderError error
-
-func renderFile(d *schema.ResourceData) (string, error) {
-  return "BOOP", nil
-}
