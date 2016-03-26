@@ -1,7 +1,7 @@
 package main
 
 import (
-  "github.com/jbussdieker/terraform-provider-foobar/foobar"
+  "./foobar"
   "github.com/hashicorp/terraform/plugin"
 )
 
